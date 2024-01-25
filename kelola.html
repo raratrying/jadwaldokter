@@ -9,31 +9,56 @@
 </head>
 <body>
     <nav class="navbar bg-body-tertiary mb-4">
-        <div class="container-fluid">
+      <div class="container-fluid">
           <a class="navbar-brand" href="#">RS DATA</a>
         </div>
       </nav>
       <div class="container">
         <div class="mb-3 row">
-          <label for="kode" class="col-sm-2 col-form-label">Kode :</label>
+          <label for="hari" class="col-sm-2 col-form-label">Hari :</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="kode" >
-          </div>
-        <div class="mb-3 row">
-          <label for="nama" class="col-sm-2 col-form-label">Nama Dokter :</label>
-          <div class="col-sm-10">
-            <input type="text" class="form-control" id="nama" >
-          </div>
-        <div class="mb-3 row">
-          <label for="alamat" class="col-sm-2 col-form-label">Alamat :</label>
-          <div class="col-sm-10">
-            <input type="text" class="form-control" id="alamat" >
+            <input type="text" class="form-control" id="hari" > <br>
           </div>
         <div class="mb-3 row">
           <label for="poli" class="col-sm-2 col-form-label">Poli :</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="poli" >
+            <select id="poli" class="form-select" >
+              <option selected>poli</option>
+              <option value="1">Gigi</option>
+              <option value="2">Umum</option>
+              <option value="3">Anak</option>
+              <option value="3">Kulit</option>
+              <option value="3">Bedah</option>
+              <option value="3">Jantung</option>
+              <option value="3">Gizi</option>
+              <option value="3">Mata</option>
+              <option value="3">Gizi</option>
+              <option value="3">Psikiatri</option>
+              <option value="3">Orthopedi</option>
+            </select><br>
           </div>
+        <div class="mr-5 row">
+          <label for="nama" class="col-sm-2 col-form-label">Nama Dokter :</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="nama" > <br>
+          </div>
+        <div class="mb-10 row">
+          <label for="jam" class="col-sm-2 col-form-label">Jam Kerja :</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="jam" > 
+          </div>
+        </div>
+        
+        <div class="mb-3 row mt-4">
+          <div class="col">
+            <button type="button" class="btn btn-primary">
+              Tambahkan 
+            </button>
+            <button type="button" class="btn btn-danger">
+              Batal
+            </button>
+          </div>
+           
         </div>
       </div>
 </body>
